@@ -1,7 +1,6 @@
 import React from 'react'
 import Container from './Container'
 import { MdOutlineEmail } from 'react-icons/md'
-import { BiPhoneCall } from 'react-icons/bi'
 import { LuPhoneCall } from 'react-icons/lu'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 
