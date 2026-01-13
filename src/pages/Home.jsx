@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import Banner from '../components/Banner'
 import The from '../components/The'
 import Img from '../components/Img'
+import Service from '../components/Service'
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Banner/>
             <The/>
             <Img/>
+            <Service/>
         </div>
     )
 }
