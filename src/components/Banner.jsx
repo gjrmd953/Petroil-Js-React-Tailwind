@@ -9,17 +9,14 @@ const Banner = () => {
 
 
             <Container>
-                <div className="relative  h-screen flex items-center">
-                    <div>
-                        <h1 className="font-pop text-praimary font-bold text-6xl leading-normal">
-                            We exist since 1975 on the <br />
-                            oil and gas industry.
-                        </h1>
+                <div className="py-65">
+                    <h1 className='font-pop text-praimary font-bold text-6xl w-220 leading- leading-tight'>
+                        We exist since 1975 on the oil and gas industry.
+                    </h1>
 
-                        <button className="mt-6 bg-red-600 hover:bg-red-700 text-white px-6 py-3 font-semibold">
-                            LEARN MORE
-                        </button>
-                    </div>
+                    <button className='font-pop font-semibold text-praimary px-8 py-3 bg-[#F40404] mt-8 cursor-pointer'>
+                        LEARN MORE
+                    </button>
                 </div>
             </Container>
         </div>
