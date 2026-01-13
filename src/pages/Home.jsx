@@ -7,6 +7,7 @@ import Img from '../components/Img'
 import Service from '../components/Service'
 import Learn from '../components/Learn'
 import Logo from '../components/Logo'
+import Card from '../components/Card'
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Service/>
             <Learn/>
             <Logo/>
+            <Card/>
         </div>
     )
 }
