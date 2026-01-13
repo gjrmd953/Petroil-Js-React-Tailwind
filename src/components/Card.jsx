@@ -3,7 +3,7 @@ import Container from './Container'
 
 const Card = () => {
     return (
-        <div className='py-28'>
+        <div className='py-28 bg-[#F0F0F0]'>
             <Container>
                 <div className="flex justify-between gap-18">
                     <div className="w-1/3 bg-[#00000099]">
