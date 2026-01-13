@@ -5,6 +5,7 @@ import Banner from '../components/Banner'
 import The from '../components/The'
 import Img from '../components/Img'
 import Service from '../components/Service'
+import Learn from '../components/Learn'
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <The/>
             <Img/>
             <Service/>
+            <Learn/>
         </div>
     )
 }
