@@ -9,6 +9,7 @@ import Learn from '../components/Learn'
 import Logo from '../components/Logo'
 import Card from '../components/Card'
 import Map from '../components/Map'
+import Footer from '../components/Footer'
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
             <Logo/>
             <Card/>
             <Map/>
+            <Footer/>
         </div>
     )
 }
