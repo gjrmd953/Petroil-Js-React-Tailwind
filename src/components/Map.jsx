@@ -6,7 +6,7 @@ const Map = () => {
     return (
         <div>
             <div className="">
-                <img src={MapImg} alt="" />
+                <img src={MapImg} alt="" className='w-full' />
             </div>
             <div className="bg-[#F40404]">
                 <Container>

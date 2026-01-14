@@ -7,18 +7,18 @@ import PiepImg from "../assets/piep.png"
 const Img = () => {
   return (
     <div>
-         <div className='flex justify-between py-3'>
-                <div className="">
-                    <img src={CarImg} alt="" />
+         <div className='flex justify-between py-3 gap-7'>
+                <div className="w-1/4">
+                    <img src={CarImg} alt="" className='w-full'/>
                 </div>
-                <div className="">
-                    <img src={PampImg} alt="" />
+                <div className="w-1/4">
+                    <img src={PampImg} alt="" className='w-full'/>
                 </div>
-                <div className="">
-                    <img src={ShipImg} alt="" />
+                <div className="w-1/4">
+                    <img src={ShipImg} alt="" className='w-full'/>
                 </div>
-                <div className="">
-                    <img src={PiepImg} alt="" />
+                <div className="w-1/4">
+                    <img src={PiepImg} alt="" className='w-full'/>
                 </div>
             </div>
     </div>
