@@ -5,11 +5,15 @@ import WeldingImg from "../assets/welding.png"
 
 const Service = () => {
     return (
-        <div className='py-2'>
+        <div className='pt-2'>
             <div className="flex">
-                <div className="w-1/2 ">
-                    <h2>Our Services</h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <div className="w-1/2 pl-85 ">
+                   <div className="pt-25">
+                     <h2 className='font-pop font-bold text-[64px] text-secondary'>Our Services</h2>
+                    <p className='font-pop text-tertiary '>
+                        It is a long established fact that a reader will be <br /> distracted by the readable content of a page <br /> when looking at its layout.
+                    </p>
+                   </div>
                 </div>
                 <div className="w-1/2">
                     <div className="h-full bg-cover bg-center relative" style={{ backgroundImage: `url(${BanpipeImg})` }}>
@@ -31,7 +35,7 @@ const Service = () => {
                         <div className="absolute bg-[#00000065]"></div>
 
                         <h2 className='font-pop font-bold text-praimary text-4xl pt-36 pl-28 pb-8'>
-                            Modern natural oil and gas refineries.
+                            Supply of national industries.
                         </h2>
                         <button className='font-pop font-semibold text-praimary py-2.5 px-4 bg-[#F40404] ml-28 mb-36'>
                             Learn More
@@ -43,7 +47,7 @@ const Service = () => {
                         <div className="absolute bg-[#00000065]"></div>
 
                         <h2 className='font-pop font-bold text-praimary text-4xl pt-36 pl-28 pb-8'>
-                            Modern natural oil and gas refineries.
+                            National fuel distribution and supply.
                         </h2>
                         <button className='font-pop font-semibold text-praimary py-2.5 px-4 bg-[#F40404] ml-28 mb-36'>
                             Learn More
