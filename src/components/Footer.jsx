@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <div className='pt-[144px] bg-[#1F1F1F]'>
             <Container>
-                <div className="">
+                <div className="flex">
                     <div className="w-2/5">
                         <img src={LogoImg} alt="" />
                         <div className="flex items-center gap-1">
@@ -47,8 +47,15 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-1/5">
 
+                    <div className="w-1/5">
+                        <h2 className='font-pop font-bold text-[16px] text-praimary cursor-pointer'>Company</h2>
+                        <ul className='font-pop font-bold text-[12px] text-praimary cursor-pointer'>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Services</li>
+                            <li>Gallery</li>
+                        </ul>
                     </div>
                     <div className="w-1/5">
 
