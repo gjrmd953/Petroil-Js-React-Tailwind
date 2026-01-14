@@ -1,12 +1,16 @@
 import React from 'react'
 import Container from './Container'
+import { IoIosArrowForward } from 'react-icons/io'
+import CardImg1 from "../assets/card1.png"
+import CardImg2 from "../assets/card2.png"
+import CardImg3 from "../assets/card3.png"
 
 const Card = () => {
     return (
         <div className='py-28 bg-[#F0F0F0]'>
             <Container>
                 <div className="flex justify-between gap-18">
-                    <div className="w-1/3 bg-[#00000099]">
+                    <div className="w-1/3 bg-[#00000099]  bg-cover bg-center relative"  style={{ backgroundImage: `url(${CardImg1})` }} >
                         <h2 className=' font-pop font-bold text-praimary text-2xl pl-13 pt-18 '>
                             lorem ipsum dolor <br />sit amet <br /> consectetur <br /> adipiscing elit sed <br /> do eiusmod.
                         </h2>
@@ -14,7 +18,7 @@ const Card = () => {
                             Read more
                         </button>
                     </div>
-                    <div className="w-1/3 bg-[#00000099]">
+                    <div className="w-1/3 bg-[#00000099] bg-cover bg-center relative" style={{ backgroundImage: `url(${CardImg2})` }}>
                         <h2 className='font-pop font-bold text-praimary text-2xl pl-13 pt-18 '>
                             lorem ipsum dolor <br />sit amet <br /> consectetur <br /> adipiscing elit sed <br /> do eiusmod.
                         </h2>
@@ -22,7 +26,7 @@ const Card = () => {
                             Read more
                         </button>
                     </div>
-                    <div className="w-1/3 bg-[#00000099]">
+                    <div className="w-1/3 bg-[#00000099] bg-cover bg-center relative" style={{ backgroundImage: `url(${CardImg3})` }}>
                         <h2 className='font-pop font-bold text-praimary text-2xl pl-13 pt-18 '>
                             lorem ipsum dolor <br />sit amet <br /> consectetur <br /> adipiscing elit sed <br /> do eiusmod.
                         </h2>
@@ -30,6 +34,11 @@ const Card = () => {
                             Read more
                         </button>
                     </div>
+                </div>
+
+                <div className="flex justify-end items-center pt-7 cursor-pointer">
+                    <h2 className='font-pop font-bold text-[hsl(0,0%,0%)]'>MORE FROM THE BLLOG</h2>
+                    <IoIosArrowForward className='font-bold text-[#000000]' />
                 </div>
             </Container>
         </div>
