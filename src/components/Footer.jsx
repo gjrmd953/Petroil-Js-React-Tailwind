@@ -1,8 +1,8 @@
 import React from 'react'
 import Container from './Container'
 import LogoImg from "../assets/logo.png"
-import Cert1Img from "../assets/cert1.png"
-import Cert2Img from "../assets/cert2.png"
+import CertoneImg from "../assets/certone.png"
+import CerttwoImg from "../assets/certtwo.png"
 import { MdOutlineEmail } from 'react-icons/md'
 import { LuPhoneCall } from 'react-icons/lu'
 import { GrMap } from 'react-icons/gr'
@@ -71,8 +71,8 @@ const Footer = () => {
                     <div className="w-1/5">
                           <h2 className='font-pop font-bold text-[16px] text-praimary pb-5'>Certificate</h2>
                           <div className="flex gap-1">
-                            <img src={Cert1Img} alt="" />
-                            <img src={Cert2Img} alt="" />
+                            <img src={CertoneImg} alt="" />
+                            <img src={CerttwoImg} alt="" />
                           </div>
                     </div>
                 </div>
