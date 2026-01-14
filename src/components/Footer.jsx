@@ -4,6 +4,7 @@ import LogoImg from "../assets/logo.png"
 import { MdOutlineEmail } from 'react-icons/md'
 import { LuPhoneCall } from 'react-icons/lu'
 import { GrMap } from 'react-icons/gr'
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -29,6 +30,21 @@ const Footer = () => {
                             <h3 className='font-pop text-praimary'>
                                 101 Baker Street, New York, USA, 12345
                             </h3>
+                        </div>
+
+                        <div className="flex gap-4">
+                            <div className="bg-[#F40404] p-2 rounded-full">
+                                <FaFacebookF className=' text-praimary' />
+                            </div>
+                            <div className="bg-[#F40404] p-2 rounded-full">
+                                <FaTwitter className=' text-praimary' />
+                            </div>
+                            <div className="bg-[#F40404] p-2 rounded-full">
+                                <FaLinkedinIn className=' text-praimary' />
+                            </div>
+                            <div className="bg-[#F40404] p-2 rounded-full">
+                                <FaInstagram className=' text-praimary' />
+                            </div>
                         </div>
                     </div>
                     <div className="w-1/5">
